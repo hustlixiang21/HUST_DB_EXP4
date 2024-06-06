@@ -47,38 +47,38 @@ pythonProject [DB_EXP4]
 
 ### 登录界面
 
-![登录封面](images\image.png)
+![登录封面](images/image.png)
 
 ### 主界面
 
-![主界面](images\image-1.png)
+![主界面](images/image-1.png)
 
 ### 任务1
 
-![任务1](images\image-2.png)
+![任务1](images/image-2.png)
 
 ### 任务2
 
-![任务2](images\image-3.png)
+![任务2](images/image-3.png)
 
 ### 任务3
 
-![任务3](images\image-4.png)
+![任务3](images/image-4.png)
 
 ### 任务4
 
-![任务4](images\image-5.png)
+![任务4](images/image-5.png)
 
 ### 任务5
 
-![任务5](images\image-6.png)
+![任务5](images/image-6.png)
 
 ### 任务6
 
-![任务6](images\image-7.png)
+![任务6](images/image-7.png)
 
 ### 日志文件
 
 同时程序也提供了非常详细的日志文件的信息
 
-![日志文件](images\image-8.png)
+![日志文件](images/image-8.png)
