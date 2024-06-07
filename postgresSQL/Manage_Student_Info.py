@@ -64,7 +64,8 @@ def insert_student_info(sno, sname, ssex, sage, sdept, scholarship) -> bool:
             cursor.execute("""
                     INSERT INTO Student (sno, sname, ssex, sage, sdept, scholarship) 
                     VALUES (%s, %s, %s, %s, %s, %s)
-                """, (sno, sname, ssex, sage, sdept, scholarship))
+                """, (sno if sno else None, sname if sname else None, ssex if ssex else None, sage if sage else None,
+                      sdept if sdept else None, scholarship if scholarship else None))
             conn.commit()
             cursor.close()
             release_connection(conn)

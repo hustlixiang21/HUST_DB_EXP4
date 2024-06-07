@@ -56,7 +56,7 @@ def insert_grade_info(sno, cno, grade) -> bool:
             cursor.execute("""
                 INSERT INTO sc (sno, cno, grade) 
                 VALUES (%s, %s, %s)
-            """, (sno, cno, grade))
+            """, (sno if sno else None, cno if cno else None, grade if grade else None))
             conn.commit()
             cursor.close()
             release_connection(conn)
